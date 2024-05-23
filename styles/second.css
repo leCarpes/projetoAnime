@@ -1,0 +1,239 @@
+
+
+.titleVideo{
+    /* border: 5px solid yellow; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleVideo>h1{
+    font-family: 'Rubik';
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.titleVideo>h2{
+    font-family: 'Rubik';
+    font-size: 25px;
+    font-weight: 300;
+    color: #BFBFBF;
+}
+
+.containerVideo{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.videoBanner{
+    /* border: 5px solid green; */
+    width: auto;
+    height: auto;
+}
+
+.bannerImg{
+    position: relative;
+    width: 700px;
+    height: 390px;
+    opacity: 70%;
+}
+
+.bannerImg:hover{
+    opacity: 50%;
+}
+
+.bannerIcon{
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    cursor: pointer;
+}
+
+.bannerIcon:hover{
+    opacity: 90%;
+}
+
+.containerVideoCard{
+    /* border: 5px solid purple; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.videoCard{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.videoImg{
+    width: 80px;
+    height: 90px;
+}
+
+
+.textVideo{
+    /* border: 5px solid red; */
+    background-color: #151B26;
+    width: 60%;
+    padding-left: 10px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.textVideo:hover{
+    background-color: #2f3b529c;
+}
+
+.textVideo>h4{
+    font-family: 'Rubik';
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.textVideo>p{
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #BFBFBF;
+}
+
+
+.containerDescription{
+    /* border: 5px solid red; */
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.imgDescription{
+    /* border: 5px solid green; */
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imgDescription>img{
+    width: 250px;
+    height: 330px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.imgDescription>img:hover{
+    opacity: 50%;
+}
+
+.descriptionData{
+    /* border: 5px solid yellow; */
+    padding: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    line-height: 30px;
+}
+
+.textDescription>p>strong{
+    font-family: 'Rubik';
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.textDescription>p{
+    font-family: 'Inter';
+    color: #BFBFBF;
+}
+
+.descriptionSinopse{
+    /* border: 5px solid purple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 25px;
+}
+
+.descriptionSinopse>h4{
+    font-family: 'Rubik';
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.descriptionSinopse>p{
+    font-family: 'Inter';
+    font-size: 15px;
+    text-align: justify;
+    color: #BFBFBF;
+}
+
+
+
+.containerComments{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.titleComments{
+    margin-top: 30px
+}
+
+.titleComments>h3{
+    font-family: 'Rubik';
+    font-size: 25px;
+    font-weight: 300;
+}
+
+hr{
+    border: 1px solid #151B26;
+}
+
+.profile{
+    /* border: 5px solid green; */
+    display: flex;
+    gap: 20px;
+}
+
+
+.imgProfile>img{
+    width: 70px;
+    height: 70px;
+}
+
+.textProfile{
+    /* border: 5px solid blue; */
+    line-height: 30px;
+
+}
+
+.textProfile>span{
+    font-family: 'Rubik';
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.textProfile>p{
+    font-family: 'Inter';
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #BFBFBF;
+}
+
+
+@media screen and (max-width: 414px) {
+
+}
