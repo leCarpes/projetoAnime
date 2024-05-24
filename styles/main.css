@@ -268,12 +268,12 @@ input:hover{
 .imgCard>img{
     width: 100%;
     border-radius: 8px;
-    opacity: 60%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.998), rgba(0,0,0,0));
 }
 
 
 .imgCard>img:hover{
-    opacity: 30%;
+    opacity: 80%;
 }
 
 
