@@ -17,7 +17,7 @@
 
 
 .container-grid{
-    max-width: 1000px;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -33,26 +33,28 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter';
-    width: 1000px;
+    width: 100%;
     margin-top: 30px;
 }
 
 
-.titleHeader{
+.titleHeader>h1{
     color: #00A3FF;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .containerNav{
-    width: 700px;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+
 .navHeader{
-    width: 400px;
+    /* border: 2px solid white; */
+    width: 80%;
 }
 
 .ulHeader{
@@ -93,13 +95,18 @@ input:hover{
     letter-spacing: 1px;
 }
 
+.iconsHeader{
+    display: none;
+}
+
 .sectionLow{
     width: 100%;
     height: 90px;
+    padding: 10px;
     display: flex;
     align-items: center;
     overflow-x: scroll;
-    overflow-inline: auto;
+    /* overflow-inline: auto; */
 }
 
 
@@ -196,7 +203,7 @@ input:hover{
     padding: 30px;
     width: 600px;
     position: absolute;
-    top: 430px;
+    top: 450px;
 
     display: flex;
     flex-direction: column;
@@ -237,7 +244,6 @@ input:hover{
 }
 
 .containerSeries{
-    /* border: 5px solid green; */
     padding-top: 10px;
     height: auto;
     
@@ -248,7 +254,6 @@ input:hover{
 }
 
 .card{
-    /* border: 5px solid purple; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,7 +304,6 @@ input:hover{
 
 
 .textCard{
-    /* border: 5px solid pink; */
     width: 150px;
     text-align: center;
     font-family: 'Inter';
@@ -310,7 +314,6 @@ input:hover{
 
 
 .containerButton{
-    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
 }
@@ -346,7 +349,117 @@ input:hover{
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
 
-    
+.container-grid{
+    max-width: 90%;
+}
+
+.titleHeader>h1{
+    font-size: 24px;
+}
+
+.containerNav{
+    width: 25%;
+}
+
+.navHeader{
+    display: none;
+}
+
+.inputHeader{
+    display: none;
+}
+
+.iconsHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconsHeader>img{
+    cursor:pointer;
+}
+
+
+.buttonHeader>button:first-child{
+    margin-left: 0;
+    width: 66px;
+    background-color: #151B26;
+    color: #FFFFFF;
+}
+
+.buttonHeader>button{
+    font-size: 12px;
+    width: 52px;
+    margin-left: 20px;
+}
+
+
+.containerBanner{
+    margin-top: 50px;
+}
+
+.titleBanner>h3{
+    font-size: 18px;
+}
+
+.titleBanner>p{
+    font-size: 14px;
+}
+
+.imgBanner {
+    background-image: url('../assets/image/wallpaperMobile.png');
+}
+
+.textBanner{
+    width: 370px;
+}
+
+.textBanner>h1{
+    font-size: 15px;
+}
+
+.textBanner>p{
+    width: 85%;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.containerCards{
+    margin-top: 50px;
+}
+
+
+.titleCards>h3{
+    font-size: 18px;
+}
+
+.containerSeries{
+    justify-content: space-around;
+}
+
+.subtitleCard>span{
+    font-size: 12px;
+}
+
+.textCard{
+    font-size: 14px;
+}
+
+.containerButton{
+    margin-top: 20px;
+}
+
+.containerButton>button{
+    width: 100%;
+    font-size: 16px;
+}
+
+.containerFooter{
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
 }
