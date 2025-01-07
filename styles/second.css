@@ -4,7 +4,7 @@
     /* border: 5px solid yellow; */
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 85%;
+    width: 70vw;
     display: flex;
     justify-content: space-between;
 }
@@ -24,14 +24,13 @@
 }
 
 .containerVideo{
-    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 
 .videoBanner{
-    /* border: 5px solid green; */
     width: auto;
     height: auto;
 }
@@ -49,8 +48,8 @@
 
 .bannerIcon{
     position: absolute;
-    top: 300px;
-    left: 430px;
+    top: 335px;
+    left: 460px;
     cursor: pointer;
 }
 
@@ -81,7 +80,7 @@
 .textVideo{
     /* border: 5px solid red; */
     background-color: #151B26;
-    width: 60%;
+    width: 70%;
     padding-left: 10px;
     line-height: 25px;
     display: flex;
@@ -95,6 +94,7 @@
 }
 
 .textVideo>h4{
+    width: 60%;
     font-family: 'Rubik';
     font-size: 15px;
     color: #FFFFFF;
@@ -233,7 +233,116 @@ hr{
     color: #BFBFBF;
 }
 
+.containerButton{
+    display: none;
+}
 
-@media screen and (max-width: 414px) {
+
+@media screen and (max-width: 415px) {
+
+.titleVideo>h1{
+    width: 100%;
+    font-size: 16px;
+}
+
+.titleVideo>h2{
+    display: none;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+}
+
+.bannerIcon{
+    top: 215px;
+    left: 155px;
+}
+
+.containerVideoCard{
+    display: none;
+}
+
+.containerDescription{
+    /* border: 5px solid red; */
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.imgDescription{
+    display: none;
+
+}
+
+.descriptionData{
+    width: 100%;
+    gap: 30px;
+    padding: 0;
+}
+
+.textDescription>p>strong{
+    font-size:14px;
+}
+
+.textDescription>p{
+    font-size: 12px;
+}
+
+
+.descriptionSinopse>h4{
+    font-size: 14px;
+}
+
+.descriptionSinopse>p{
+    font-size: 12px;
+}
+
+.titleComments>h3{
+    font-size: 16px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+}
+
+.imgProfile{
+    display: flex;
+    align-items: center;
+}
+
+.imgProfile>img{
+    width: 40px;
+    height: 40px;
+}
+
+.textProfile{
+    line-height: 20px;
+
+}
+
+.textProfile>span{
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.textProfile>p{
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.containerButton{
+    display: block;
+}
+
+.titleCards>h3{
+    font-size: 16px;
+}
+
+.textCard{
+    font-size: 12px;
+}
 
 }

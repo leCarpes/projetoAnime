@@ -364,7 +364,35 @@ input:hover{
 }
 
 .navHeader{
-    display: none;
+    background-color: #151b2663;
+    position:  fixed;
+    top: 10vh;
+    right: 0;
+    height: 40vh;
+    width: 80%;
+    
+    transform: translateX(0);
+    transition: all 0.5s ease;
+    z-index: 999;
+}
+
+.navHeader.open{
+    transform: translateX(100%);
+    display: block;  
+}
+
+.navHeader>ul{
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
+
+.navHeader>ul>li:hover{
+    border-radius: 10px;
+    padding: 8px;
+    color: var(--color-white);
 }
 
 .inputHeader{
