@@ -371,13 +371,13 @@ input:hover{
     height: 40vh;
     width: 80%;
     
-    transform: translateX(0);
+    transform: translateX(100%);
     transition: all 0.5s ease;
     z-index: 999;
 }
 
 .navHeader.open{
-    transform: translateX(100%);
+    transform: translateX(0);
     display: block;  
 }
 
@@ -407,6 +407,12 @@ input:hover{
 
 .iconsHeader>img{
     cursor:pointer;
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 
